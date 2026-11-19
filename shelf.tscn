@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://c7o5sxka56a2p"]
+
+[ext_resource type="Script" uid="uid://l7rv7ls5kx3n" path="res://shelf.gd" id="1_0edba"]
+
+[node name="Shelf" type="Node3D" unique_id=1324335723 node_paths=PackedStringArray("marker")]
+script = ExtResource("1_0edba")
+marker = NodePath("IngredientMarker3D")
+
+[node name="ShelfSideL" type="CSGBox3D" parent="." unique_id=1374460450]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -0.4, 0, 0.2)
+size = Vector3(0.4, 0.8, 0.1)
+
+[node name="ShelSideR" type="CSGBox3D" parent="." unique_id=423414488]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0.4, 0, 0.2)
+size = Vector3(0.4, 0.8, 0.1)
+
+[node name="ShelfSideT" type="CSGBox3D" parent="." unique_id=1383466010]
+transform = Transform3D(1.9106855e-15, 1, 4.371139e-08, 4.371139e-08, -4.371139e-08, 1, 1, 0, -4.371139e-08, 1.7484556e-08, 0.4, 0.2)
+size = Vector3(0.4, 0.8, 0.1)
+
+[node name="ShelSideB" type="CSGBox3D" parent="." unique_id=1923049002]
+transform = Transform3D(1.9106855e-15, 1, 4.371139e-08, 4.371139e-08, -4.371139e-08, 1, 1, 0, -4.371139e-08, -1.7484556e-08, -0.4, 0.2)
+size = Vector3(0.4, 0.8, 0.1)
+
+[node name="IngredientMarker3D" type="Marker3D" parent="." unique_id=1612876814]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.2)

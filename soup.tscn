@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://8tfgwp5arl5c"]
+
+[ext_resource type="Script" uid="uid://dcra1cqf73i4x" path="res://soup.gd" id="1_nvsmu"]
+
+[node name="Soup" type="Node3D" unique_id=1525482444 node_paths=PackedStringArray("marker")]
+script = ExtResource("1_nvsmu")
+marker = NodePath("IngredientMarker3D")
+
+[node name="Bowl" type="CSGCylinder3D" parent="." unique_id=1837370067]
+height = 0.21875
+
+[node name="BowlCutout" type="CSGCylinder3D" parent="Bowl" unique_id=358686679]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.03881836, 0)
+operation = 2
+radius = 0.43603516
+height = 0.21240234
+
+[node name="IngredientMarker3D" type="Marker3D" parent="." unique_id=1017982956]
