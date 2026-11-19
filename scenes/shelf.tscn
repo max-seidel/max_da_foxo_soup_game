@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://c7o5sxka56a2p"]
 
-[ext_resource type="Script" uid="uid://l7rv7ls5kx3n" path="res://shelf.gd" id="1_0edba"]
+[ext_resource type="Script" uid="uid://l7rv7ls5kx3n" path="res://scripts/shelf.gd" id="1_eyi4x"]
 
 [node name="Shelf" type="Node3D" unique_id=1324335723 node_paths=PackedStringArray("marker")]
-script = ExtResource("1_0edba")
+script = ExtResource("1_eyi4x")
 marker = NodePath("IngredientMarker3D")
 
 [node name="ShelfSideL" type="CSGBox3D" parent="." unique_id=1374460450]

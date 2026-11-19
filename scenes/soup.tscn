@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://8tfgwp5arl5c"]
 
-[ext_resource type="Script" uid="uid://dcra1cqf73i4x" path="res://soup.gd" id="1_nvsmu"]
+[ext_resource type="Script" uid="uid://dcra1cqf73i4x" path="res://scripts/soup.gd" id="1_nvsmu"]
 
 [node name="Soup" type="Node3D" unique_id=1525482444 node_paths=PackedStringArray("marker")]
 script = ExtResource("1_nvsmu")

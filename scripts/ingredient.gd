@@ -53,7 +53,7 @@ func interact() -> void:
         return
     print("Interacted with ", self.name)
 
-    if Soup.active.ingredients.size() >= Soup.MAX_INGREDIENTS:
+    if Soup.active.get_is_full():
         print("Soup MAX_INGREDIENTS hit")
         return
     

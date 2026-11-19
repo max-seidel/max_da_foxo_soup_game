@@ -64,3 +64,7 @@ func remove_ingredient(ingredient: Ingredient) -> void:
 func _return_ingredients() -> void:
     for ingredient: Ingredient in ingredients.duplicate():
         ingredient.occupy_shelf(Shelf.pick_random(false), false)
+
+
+func get_is_full() -> bool:
+    return ingredients.size() >= MAX_INGREDIENTS
